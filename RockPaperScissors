@@ -6,10 +6,12 @@ print("Scissor............")
 
 
 list_of_game= ["rock","paper","scissors"]
+
 player1 = random.choice(list_of_game)
+print( "AI Bot says::::" + player1)
 
 player2=input("Player 2 make your move :::::")
-
+player2 = player2.lower()
 
 if player1 == player2:
     print("Its a tie")
