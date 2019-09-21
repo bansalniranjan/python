@@ -1,0 +1,3 @@
+message = "Clean your room ...........\n"
+screen_message = int(input("How many times do I need to tell you ??? "))
+print(message * screen_message)
