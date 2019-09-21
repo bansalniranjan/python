@@ -1,0 +1,3 @@
+for n in "NIRANJAN":
+    print(n)
+    n = n + n
