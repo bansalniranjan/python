@@ -1,0 +1,13 @@
+# 4 and 13 x is unlucky
+# even x  is even
+# odd x i odd
+# 
+
+for i in range(1,21):
+    if i % 2 != 0 and i ==13 :
+        print(str(i) + " is unlucky")    
+        print (str(i) + " is odd")
+    elif i % 2 == 0 and i ==4 :
+        print (str(i) + " is unlucky")
+    else:
+        print(str(i) + " is even")
