@@ -1,0 +1,4 @@
+number_range= range(10,0,-1)
+for number in number_range:
+    print(number)
+    number = number + 1
